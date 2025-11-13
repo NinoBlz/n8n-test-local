@@ -1,15 +1,15 @@
 {
-  "name": "Collecte des Besoins - Création Site Web",
+  "name": "Collecte Besoins Site Web",
   "nodes": [
     {
       "parameters": {
         "path": "formulaire-site-web",
-        "formTitle": "Formulaire de Collecte des Besoins - Création de Site Web",
-        "formDescription": "Veuillez remplir ce formulaire pour nous aider à comprendre vos besoins pour la création de votre site web.",
+        "formTitle": "Formulaire Collecte Besoins - Site Web",
+        "formDescription": "Remplissez ce formulaire pour nous aider à comprendre vos besoins.",
         "formFields": {
           "values": [
             {
-              "fieldLabel": "Type d'organisation",
+              "fieldLabel": "Type organisation",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
@@ -19,94 +19,91 @@
                   {"option": "PME"},
                   {"option": "Grande entreprise"},
                   {"option": "Association"},
-                  {"option": "Freelance/Indépendant"}
+                  {"option": "Freelance"}
                 ]
               }
             },
             {
-              "fieldLabel": "Nom de l'entreprise/organisation",
+              "fieldLabel": "Nom entreprise",
               "fieldType": "text",
               "requiredField": true
             },
             {
-              "fieldLabel": "Secteur d'activité",
+              "fieldLabel": "Secteur activite",
               "fieldType": "text",
               "requiredField": true,
-              "placeholder": "Ex: Restauration, E-commerce, Services, etc."
+              "placeholder": "Ex: Restauration, E-commerce"
             },
             {
-              "fieldLabel": "Type de site web souhaité",
+              "fieldLabel": "Type site web",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
                   {"option": "Site vitrine"},
                   {"option": "E-commerce"},
-                  {"option": "Blog/Magazine"},
+                  {"option": "Blog"},
                   {"option": "Portfolio"},
                   {"option": "Application web"},
-                  {"option": "Site institutionnel"},
-                  {"option": "Landing page"},
-                  {"option": "Marketplace"}
+                  {"option": "Landing page"}
                 ]
               }
             },
             {
-              "fieldLabel": "Objectif principal du site",
+              "fieldLabel": "Objectif principal",
               "fieldType": "textarea",
               "requiredField": true,
-              "placeholder": "Décrivez l'objectif principal de votre site web"
+              "placeholder": "Décrivez votre objectif"
             },
             {
               "fieldLabel": "Public cible",
               "fieldType": "text",
               "requiredField": true,
-              "placeholder": "Ex: Jeunes adultes 18-35 ans, Professionnels B2B, Familles, etc."
+              "placeholder": "Ex: Jeunes adultes 18-35 ans"
             },
             {
-              "fieldLabel": "Fonctionnalités souhaitées",
+              "fieldLabel": "Fonctionnalites",
               "fieldType": "textarea",
               "requiredField": true,
-              "placeholder": "Listez les fonctionnalités importantes"
+              "placeholder": "Listez les fonctionnalités"
             },
             {
-              "fieldLabel": "Avez-vous une charte graphique existante?",
+              "fieldLabel": "Charte graphique",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
-                  {"option": "Oui, complète"},
-                  {"option": "Partielle (logo uniquement)"},
-                  {"option": "Non, à créer"}
+                  {"option": "Oui complete"},
+                  {"option": "Partielle logo uniquement"},
+                  {"option": "Non a creer"}
                 ]
               }
             },
             {
-              "fieldLabel": "Couleurs préférées",
+              "fieldLabel": "Couleurs preferees",
               "fieldType": "text",
               "requiredField": false,
-              "placeholder": "Ex: Bleu, blanc, rouge / Palette moderne et épurée"
+              "placeholder": "Ex: Bleu, blanc, rouge"
             },
             {
-              "fieldLabel": "Style visuel souhaité",
+              "fieldLabel": "Style visuel",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
                   {"option": "Moderne et minimaliste"},
                   {"option": "Professionnel et corporate"},
-                  {"option": "Créatif et artistique"},
-                  {"option": "Élégant et luxueux"},
-                  {"option": "Dynamique et coloré"},
-                  {"option": "Sobre et classique"}
+                  {"option": "Creatif et artistique"},
+                  {"option": "Elegant et luxueux"},
+                  {"option": "Dynamique et colore"}
                 ]
               }
             },
             {
-              "fieldLabel": "Sites web de référence",
+              "fieldLabel": "Sites reference",
               "fieldType": "textarea",
               "requiredField": false,
-              "placeholder": "Partagez des URLs de sites que vous aimez"
+              "placeholder": "URLs de sites que vous aimez"
             },
             {
               "fieldLabel": "Contenu disponible",
@@ -114,15 +111,15 @@
               "requiredField": true,
               "fieldOptions": {
                 "values": [
-                  {"option": "Tout le contenu est prêt (textes, images)"},
-                  {"option": "Contenu partiel disponible"},
-                  {"option": "Besoin d'aide pour créer le contenu"},
-                  {"option": "Aucun contenu disponible"}
+                  {"option": "Tout pret"},
+                  {"option": "Partiel"},
+                  {"option": "Besoin aide"},
+                  {"option": "Aucun"}
                 ]
               }
             },
             {
-              "fieldLabel": "Nombre de pages estimé",
+              "fieldLabel": "Nombre pages",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
@@ -135,10 +132,10 @@
               }
             },
             {
-              "fieldLabel": "Langues du site",
+              "fieldLabel": "Langues",
               "fieldType": "text",
               "requiredField": true,
-              "placeholder": "Ex: Français uniquement, Français + Anglais"
+              "placeholder": "Ex: Francais uniquement"
             },
             {
               "fieldLabel": "Besoins SEO",
@@ -147,129 +144,141 @@
               "fieldOptions": {
                 "values": [
                   {"option": "SEO basique"},
-                  {"option": "SEO avancé avec stratégie de contenu"},
+                  {"option": "SEO avance"},
                   {"option": "SEO local"},
-                  {"option": "Pas de besoin SEO particulier"}
+                  {"option": "Pas de besoin SEO"}
                 ]
               }
             },
             {
-              "fieldLabel": "Intégrations nécessaires",
+              "fieldLabel": "Integrations",
               "fieldType": "textarea",
               "requiredField": false,
-              "placeholder": "Ex: Google Analytics, CRM, Mailchimp, etc."
+              "placeholder": "Ex: Google Analytics, CRM"
             },
             {
-              "fieldLabel": "Budget approximatif",
+              "fieldLabel": "Budget",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
-                  {"option": "< 2000€"},
-                  {"option": "2000€ - 5000€"},
-                  {"option": "5000€ - 10000€"},
-                  {"option": "10000€ - 20000€"},
-                  {"option": "> 20000€"}
+                  {"option": "< 2000 euros"},
+                  {"option": "2000-5000 euros"},
+                  {"option": "5000-10000 euros"},
+                  {"option": "10000-20000 euros"},
+                  {"option": "> 20000 euros"}
                 ]
               }
             },
             {
-              "fieldLabel": "Délai souhaité",
+              "fieldLabel": "Delai",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
-                  {"option": "Urgent (< 1 mois)"},
-                  {"option": "Court terme (1-2 mois)"},
-                  {"option": "Moyen terme (3-4 mois)"},
-                  {"option": "Long terme (> 4 mois)"},
+                  {"option": "Urgent < 1 mois"},
+                  {"option": "Court terme 1-2 mois"},
+                  {"option": "Moyen terme 3-4 mois"},
+                  {"option": "Long terme > 4 mois"},
                   {"option": "Flexible"}
                 ]
               }
             },
             {
-              "fieldLabel": "Maintenance et hébergement",
+              "fieldLabel": "Maintenance",
               "fieldType": "dropdown",
               "requiredField": true,
               "fieldOptions": {
                 "values": [
-                  {"option": "Gestion complète souhaitée"},
-                  {"option": "Formation pour gestion autonome"},
-                  {"option": "Hébergement uniquement"},
-                  {"option": "Déjà géré en interne"}
+                  {"option": "Gestion complete"},
+                  {"option": "Formation autonome"},
+                  {"option": "Hebergement uniquement"},
+                  {"option": "Gere en interne"}
                 ]
               }
             },
             {
-              "fieldLabel": "Informations complémentaires",
+              "fieldLabel": "Infos complementaires",
               "fieldType": "textarea",
               "requiredField": false,
-              "placeholder": "Toute autre information importante"
+              "placeholder": "Autres informations"
             },
             {
-              "fieldLabel": "Email de contact",
+              "fieldLabel": "Email",
               "fieldType": "email",
               "requiredField": true
             },
             {
-              "fieldLabel": "Téléphone",
+              "fieldLabel": "Telephone",
               "fieldType": "text",
               "requiredField": false
             }
           ]
         },
-        "options": {
-          "respondWithOptions": {
-            "values": {
-              "formSubmittedText": "Merci ! Votre demande a été enregistrée."
-            }
-          }
-        }
+        "options": {}
       },
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "Formulaire de Collecte",
       "type": "n8n-nodes-base.formTrigger",
       "typeVersion": 2,
       "position": [240, 300],
-      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "webhookId": "collecte-besoins-site-web"
     },
     {
       "parameters": {
-        "jsCode": "const formData = $input.first().json;\n\nconst typeOrg = formData['Type d\\'organisation'] || formData['Type d organisation'] || '';\nconst nomEntreprise = formData['Nom de l\\'entreprise/organisation'] || formData['Nom de l entreprise/organisation'] || '';\nconst secteur = formData['Secteur d\\'activité'] || formData['Secteur d activité'] || '';\nconst emailContact = formData['Email de contact'] || '';\nconst telephone = formData['Téléphone'] || formData['Telephone'] || '';\nconst typeSite = formData['Type de site web souhaité'] || formData['Type de site web souhaite'] || '';\nconst objectif = formData['Objectif principal du site'] || '';\nconst publicCible = formData['Public cible'] || '';\nconst fonctionnalites = formData['Fonctionnalités souhaitées'] || formData['Fonctionnalites souhaitees'] || '';\nconst charteGraphique = formData['Avez-vous une charte graphique existante?'] || '';\nconst couleurs = formData['Couleurs préférées'] || formData['Couleurs preferees'] || 'Non spécifié';\nconst styleVisuel = formData['Style visuel souhaité'] || formData['Style visuel souhaite'] || '';\nconst sitesRef = formData['Sites web de référence'] || formData['Sites web de reference'] || 'Aucune référence fournie';\nconst contenu = formData['Contenu disponible'] || '';\nconst nbPages = formData['Nombre de pages estimé'] || formData['Nombre de pages estime'] || '';\nconst langues = formData['Langues du site'] || '';\nconst seo = formData['Besoins SEO'] || '';\nconst integrations = formData['Intégrations nécessaires'] || formData['Integrations necessaires'] || 'Aucune intégration spécifique';\nconst budget = formData['Budget approximatif'] || '';\nconst delai = formData['Délai souhaité'] || formData['Delai souhaite'] || '';\nconst maintenance = formData['Maintenance et hébergement'] || formData['Maintenance et hebergement'] || '';\nconst infosComp = formData['Informations complémentaires'] || formData['Informations complementaires'] || 'Aucune information complémentaire';\n\nconst prompt = `# Cahier des Charges - Création de Site Web\\n\\n## 1. INFORMATIONS CLIENT\\n- **Type d'organisation** : ${typeOrg}\\n- **Nom** : ${nomEntreprise}\\n- **Secteur d'activité** : ${secteur}\\n- **Contact** : ${emailContact}${telephone ? ` - ${telephone}` : ''}\\n\\n## 2. TYPE DE PROJET\\n- **Type de site web** : ${typeSite}\\n- **Objectif principal** : ${objectif}\\n- **Public cible** : ${publicCible}\\n\\n## 3. FONCTIONNALITÉS REQUISES\\n${fonctionnalites}\\n\\n## 4. DESIGN ET IDENTITÉ VISUELLE\\n- **Charte graphique existante** : ${charteGraphique}\\n- **Couleurs préférées** : ${couleurs}\\n- **Style visuel** : ${styleVisuel}\\n- **Sites de référence** :\\n${sitesRef}\\n\\n## 5. CONTENU\\n- **Statut du contenu** : ${contenu}\\n- **Nombre de pages** : ${nbPages}\\n- **Langues** : ${langues}\\n\\n## 6. OPTIMISATION ET INTÉGRATIONS\\n- **Besoins SEO** : ${seo}\\n- **Intégrations nécessaires** :\\n${integrations}\\n\\n## 7. CONTRAINTES PROJET\\n- **Budget** : ${budget}\\n- **Délai** : ${delai}\\n- **Maintenance** : ${maintenance}\\n\\n## 8. INFORMATIONS COMPLÉMENTAIRES\\n${infosComp}\\n\\n---\\n\\n## PROMPT POUR DÉVELOPPEUR/DESIGNER\\n\\nCréer un site web ${typeSite.toLowerCase()} pour ${nomEntreprise}, une organisation de type \"${typeOrg}\" dans le secteur ${secteur}.\\n\\n**Objectif :** ${objectif}\\n\\n**Public cible :** ${publicCible}\\n\\n**Style visuel :** ${styleVisuel} avec des tons ${couleurs}.\\n\\n**Fonctionnalités clés à développer :**\\n${fonctionnalites}\\n\\n**Structure :** Le site comprendra ${nbPages} en ${langues}.\\n\\n**SEO :** Mettre en place ${seo.toLowerCase()}.\\n\\n**Contraintes :**\\n- Budget : ${budget}\\n- Délai : ${delai}\\n- Charte graphique : ${charteGraphique}\\n- Contenu : ${contenu}\\n\\n${integrations !== 'Aucune intégration spécifique' ? `**Intégrations requises :**\\n${integrations}\\n\\n` : ''}${sitesRef !== 'Aucune référence fournie' ? `**Inspirations :**\\n${sitesRef}\\n\\n` : ''}${infosComp !== 'Aucune information complémentaire' ? `**Notes supplémentaires :**\\n${infosComp}` : ''}`;\n\nreturn {\n  json: {\n    prompt: prompt,\n    rawData: formData,\n    generatedAt: new Date().toISOString(),\n    clientName: nomEntreprise,\n    clientEmail: emailContact,\n    projectType: typeSite,\n    budget: budget,\n    deadline: delai\n  }\n};"
+        "jsCode": "const data = $input.first().json;\n\nconst prompt = `CAHIER DES CHARGES - CREATION SITE WEB\n\n1. INFORMATIONS CLIENT\nType: ${data['Type organisation']}\nNom: ${data['Nom entreprise']}\nSecteur: ${data['Secteur activite']}\nContact: ${data['Email']}\n\n2. PROJET\nType site: ${data['Type site web']}\nObjectif: ${data['Objectif principal']}\nPublic: ${data['Public cible']}\n\n3. FONCTIONNALITES\n${data['Fonctionnalites']}\n\n4. DESIGN\nCharte: ${data['Charte graphique']}\nCouleurs: ${data['Couleurs preferees'] || 'Non specifie'}\nStyle: ${data['Style visuel']}\nReferences: ${data['Sites reference'] || 'Aucune'}\n\n5. CONTENU\nDisponibilite: ${data['Contenu disponible']}\nPages: ${data['Nombre pages']}\nLangues: ${data['Langues']}\n\n6. SEO ET INTEGRATIONS\nSEO: ${data['Besoins SEO']}\nIntegrations: ${data['Integrations'] || 'Aucune'}\n\n7. CONTRAINTES\nBudget: ${data['Budget']}\nDelai: ${data['Delai']}\nMaintenance: ${data['Maintenance']}\n\n8. NOTES\n${data['Infos complementaires'] || 'Aucune'}\n\n---\n\nPROMPT DEVELOPPEUR:\n\nCreer un site ${data['Type site web']} pour ${data['Nom entreprise']} (${data['Type organisation']}) dans le secteur ${data['Secteur activite']}.\n\nObjectif: ${data['Objectif principal']}\nPublic: ${data['Public cible']}\nStyle: ${data['Style visuel']} - ${data['Couleurs preferees'] || 'couleurs a definir'}\n\nFonctionnalites:\n${data['Fonctionnalites']}\n\nStructure: ${data['Nombre pages']} en ${data['Langues']}\nSEO: ${data['Besoins SEO']}\n\nContraintes:\n- Budget: ${data['Budget']}\n- Delai: ${data['Delai']}\n- Charte: ${data['Charte graphique']}\n- Contenu: ${data['Contenu disponible']}\n`;\n\nreturn {\n  json: {\n    prompt: prompt,\n    clientName: data['Nom entreprise'],\n    clientEmail: data['Email'],\n    projectType: data['Type site web'],\n    budget: data['Budget'],\n    deadline: data['Delai'],\n    generatedAt: new Date().toISOString()\n  }\n};"
       },
-      "name": "Génération du Prompt",
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "name": "Generation Prompt",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [460, 300],
-      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901"
+      "position": [460, 300]
     },
     {
       "parameters": {
         "respondWith": "json",
-        "responseBody": "={{ { \"success\": true, \"message\": \"Prompt généré avec succès\", \"prompt\": $json.prompt, \"clientName\": $json.clientName, \"projectType\": $json.projectType } }}"
+        "responseBody": "={{ $json }}"
       },
-      "name": "Webhook Response",
+      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "name": "Reponse",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
-      "position": [680, 300],
-      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012"
+      "position": [680, 300]
     }
   ],
+  "pinData": {},
   "connections": {
     "Formulaire de Collecte": {
-      "main": [[{"node": "Génération du Prompt", "type": "main", "index": 0}]]
+      "main": [
+        [
+          {
+            "node": "Generation Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     },
-    "Génération du Prompt": {
-      "main": [[{"node": "Webhook Response", "type": "main", "index": 0}]]
+    "Generation Prompt": {
+      "main": [
+        [
+          {
+            "node": "Reponse",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
-  "pinData": {},
+  "active": false,
   "settings": {
     "executionOrder": "v1"
   },
-  "staticData": null,
-  "tags": [],
-  "triggerCount": 0,
-  "updatedAt": "2025-11-13T00:00:00.000Z",
-  "versionId": "1"
+  "versionId": "1",
+  "id": "1",
+  "meta": {
+    "instanceId": "n8n"
+  },
+  "tags": []
 }
